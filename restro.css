@@ -1,0 +1,82 @@
+body{
+    background-image: url('restro.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    /* float: right; */
+    position: sticky;
+    border:1px solid black;
+    background-color: teal;
+}
+ .box ul{
+    display: flex;
+    list-style: none;
+ }  
+.box ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+ } 
+.box ul li a{ 
+     text-decoration: none;
+    color: darkgray;
+    padding: 8px 25px;
+    transition: .8s; 
+}
+.box ul li a:hover{
+    background-color: tomato;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background-color: tomato;
+    box-shadow: 5px 5px 10px black;
+    justify-content: center;
+    top: 200px;
+    left: 10%;
+    border: 0 groove red;
+    font-size: 25px;
+    transition:  1s;
+}
+.title:hover{
+    background-color: teal;
+    color: greenyellow;
+    box-shadow: 0 0 7px black;
+    /* border: none; */
+}
+#dis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: whitesmoke;
+    /* box-shadow: 5px 5px 10px black; */
+    justify-content: center;
+    margin-left: 60%;
+    /* border: 0 groove red; */
+    font-size: 16px;
+    border: 1px solid black;
+    bottom: 0px;
+    padding: 25px;
+    font-style: italic;
+}
+#dis:hover{
+    color:midnightblue;
+    background-color: aquamarine;
+    transition: 1s;
+}
